@@ -1,0 +1,31 @@
+
+T42E8 002:388 SEGGER J-Link V5.02f Log File (0001ms, 2297ms total)
+T42E8 002:388 DLL Compiled: Oct  2 2015 20:51:34 (0002ms, 2298ms total)
+T42E8 002:388 Logging started @ 2017-01-15 13:55 (0002ms, 2298ms total)
+T42E8 002:390 JLINK_SetWarnOutHandler(...) (0000ms, 2298ms total)
+T42E8 002:390 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20161125
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0266ms, 2564ms total)
+T42E8 002:656 JLINK_SetErrorOutHandler(...) (0000ms, 2564ms total)
+T42E8 002:656 JLINK_ExecCommand("ProjectFile = "E:\HKUST_RM2017_Mainboard_V1_code\user\JLinkSettings.ini"", ...)  returns 0x00 (0013ms, 2577ms total)
+T42E8 002:686 JLINK_ExecCommand("Device = STM32F407ZG", ...)Device "STM32F407ZG" selected.  returns 0x00 (0020ms, 2598ms total)
+T42E8 002:707 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 2598ms total)
+T42E8 002:707 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 2598ms total)
+T42E8 002:707 JLINK_GetDLLVersion()  returns 50206 (0000ms, 2598ms total)
+T42E8 002:707 JLINK_GetFirmwareString(...) (0000ms, 2598ms total)
+T42E8 002:725 JLINK_GetDLLVersion()  returns 50206 (0000ms, 2598ms total)
+T42E8 002:725 JLINK_GetCompileDateTime() (0000ms, 2598ms total)
+T42E8 002:730 JLINK_GetFirmwareString(...) (0000ms, 2598ms total)
+T42E8 002:736 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 2598ms total)
+T42E8 002:763 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 2600ms total)
+T42E8 002:765 JLINK_SetSpeed(5000) (0000ms, 2600ms total)
+T42E8 002:765 JLINK_GetId() >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                returns 0x00000000 (0842ms, 3442ms total)
+T42E8 005:187 JLINK_Close() (0001ms, 3443ms total)
+T42E8 005:187  (0001ms, 3443ms total)
+T42E8 005:187 Closed (0001ms, 3443ms total)
